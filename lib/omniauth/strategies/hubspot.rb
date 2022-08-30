@@ -2,8 +2,8 @@ require 'omniauth-oauth2'
 
 module OmniAuth
   module Strategies
-    class HubSpot < OmniAuth::Strategies::OAuth2
-      option :name, "hubspot"
+    class HubspotOauth2 < OmniAuth::Strategies::OAuth2
+      option :name, "hubspot_oauth2"
 
       args [:client_id, :client_secret]
 
